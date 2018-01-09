@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration type="base">
+  <proginfo descname="proginfo" evalvals="0">
+    <proginfo name="program">FCINK</proginfo>
+    <proginfo name="author">Jan Šimbera - Prófa</proginfo>
+    <proginfo name="version">0.3</proginfo>
+  </proginfo>
+  <paths descname="path" evalvals="0">
+    <path name="log">log</path>
+    <path name="data">data</path>
+    <path name="icon">img\\fcink.ico</path>
+    <path name="img-plus">img\\plus.gif</path>
+    <path name="img-minus">img\\minus.gif</path>
+    <path name="img-pi">img\\pi.gif</path>
+    <path name="img-one">img\\one.gif</path>
+    <path name="axis-center">img\\axis_center.gif</path>
+    <path name="axis-corner">img\\axis_corner.gif</path>
+    <path name="axis-bottom">img\\axis_bottom.gif</path>
+    <path name="axis-side">img\\axis_side.gif</path>
+  </paths>
+  <outs descname="out" evalvals="0">
+    <out name="window-title">FCINK - [{0}]</out>
+    <out name="statusbar-default">FCINK - plotter matematických funkcí</out>
+    <out name="funclist-header">Seznam funkcí</out>
+    <out name="zoompanel-header">Měřítko</out>
+    <out name="zoompanel-both">XY</out>
+    <out name="zoompanel-x">X</out>
+    <out name="zoompanel-y">Y</out>
+    <out name="all-files">Všechny soubory</out>
+    <out name="fcink-files">Datové soubory FCINK</out>
+    <out name="default-filename">Graph1</out>
+    <out name="zoom-normalize">Normál</out>
+    <out name="x-pi">π</out>
+    <out name="x-pi/4">π/4</out>
+    <out name="x-pi/6">π/6</out>
+    <out name="x-pi/12">π/12</out>
+    <out name="funcpanel-header">Úprava funkcí</out>
+    <out name="funcpanel-add-button">Přidat funkci</out>
+    <out name="funcpanel-add-header">Nová funkce</out>
+    <out name="funcpanel-add-confirm">Přidat</out>
+    <out name="funcpanel-edit-button">Upravit funkci</out>
+    <out name="funcpanel-edit-header">Úprava funkce</out>
+    <out name="funcpanel-edit-confirm">Upravit</out>
+    <out name="funcpanel-colorchoose">Změnit barvu</out>
+    <out name="funcpanel-remove">Odebrat funkci</out>
+    <out name="funcpanel-removeall">Odebrat vše</out>
+    <out name="motion-header">Kurzor</out>
+    <out name="motion-lines-checker">Sledovat</out>
+    <out name="scroll-center">Střed</out>
+    <out name="scroll-edge">Strana</out>
+    <out name="scroll-corner">Roh</out>
+    <out name="cancel">Zrušit</out>
+    <out name="grid-float-labelformat">{0:.3n}</out>
+    <out name="position-format">{0:.3f}</out>
+    <out name="position-out">Mimo</out>
+    <out name="error-alert-title">CHYBA</out>
+    <out name="error-alert-header">Při zpracování požadavku došlo k chybě:</out>
+    <out name="error-alert-debuginfo">Ladicí informace zapsány do souboru</out>
+  </outs>
+  <colours descname="colour" evalvals="0">
+    <colour name="grid-line-1">#d0d0d0</colour>
+    <colour name="grid-line-2">#909090</colour>
+    <colour name="grid-line-3">#404040</colour>
+    <colour name="grid-line-4">#000000</colour>
+    <colour name="grid-line-scroll">#ff6060</colour>
+    <colour name="grid-line-motion">#6060ff</colour>
+    <colour name="canvas-background">#ffffff</colour>
+    <colour name="function-1">#ff0000</colour>
+    <colour name="function-2">#0000ff</colour>
+    <colour name="function-3">#24d041</colour>
+    <colour name="function-4">#ffff00</colour>
+    <colour name="function-5">#b422aa</colour>
+    <colour name="function-6">#a50021</colour>
+    <colour name="function-7">#00bfff</colour>
+    <colour name="function-8">#002060</colour>
+    <colour name="function-9">#cc9900</colour>
+    <colour name="function-0">#505000</colour>
+    <colour name="dead-zone">#c0c0c0</colour>
+  </colours>
+  <gridpars descname="gridpar" evalvals="1">
+    <gridpar name="x-normal-count">10</gridpar>
+    <gridpar name="default-scale">1.0</gridpar>
+    <gridpar name="scale-multiplier">2</gridpar>
+    <gridpar name="minor-grid-plot">1</gridpar>
+    <gridpar name="normal-grid-plot">11</gridpar>
+    <gridpar name="major-grid-plot">19</gridpar>
+    <gridpar name="axis-grid-plot">34</gridpar>
+    <gridpar name="minor-grid">4</gridpar>
+    <gridpar name="major-grid">5</gridpar>
+    <gridpar name="click-area">2</gridpar>
+    <gridpar name="compute-steps">1500</gridpar>
+    <gridpar name="par-init-value">1</gridpar>
+    <gridpar name="par-default-step">0.1</gridpar>
+    <gridpar name="x-fill-part">1.00</gridpar>
+    <gridpar name="y-fill-part">0.88</gridpar>
+    <gridpar name="graphlabel-closer">0</gridpar>
+    <gridpar name="graphlabel-anchor">'ne'</gridpar>
+    <gridpar name="normal-function-linewidth">1</gridpar>
+    <gridpar name="highlight-function-linewidth">2</gridpar>
+    <gridpar name="deadzone-space-multiplier">1.8</gridpar>
+    <gridpar name="stroke-length-ratio">5</gridpar>
+  </gridpars>
+  <graphpars descname="graphpar" evalvals="1">
+    <graphpar name="bold-font">('calibri', 10, 'bold')</graphpar>
+    <graphpar name="funclist-lines">20</graphpar>
+    <graphpar name="funclist-width">40</graphpar>
+  </graphpars>
+</configuration>

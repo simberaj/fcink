@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration type="widget">
+ <mainmenu>
+   <cascade name="Soubor" desc="Práce s listy grafů, export">
+     <command name="Nový" desc="Nový list" command="mgr.newCommand" />
+     <command name="Otevřít" desc="Otevřít uložený list" command="mgr.openCommand" />
+     <command name="Zavřít" desc="Zavřít stávající list" command="mgr.closeCommand" />
+     <separator />
+     <command name="Uložit" desc="Uložit list pod současným jménem" command="mgr.saveCommand" />
+     <command name="Uložit jako" desc="Uložit list pod jiným jménem" command="mgr.saveAsCommand" />
+     <separator />
+     <command name="Konec" desc="Ukončit program" command="mgr.exitCommand" />
+   </cascade>
+   <cascade name="Mřížka" desc="Manipulace s mřížkou a osami grafu">
+     <command name="Normalizovat" desc="Vystředit a ortonormalizovat" command="mgr.gridNormalCommand" />
+     <separator />
+     <cascade name="Měřítko" desc="Změny měřítka os grafu">
+       <command name="Ortonormální" desc="Změnit měřítko obou os na jednotkové (1x1)" command="mgr.zoomNormalCommand" />
+     </cascade>
+     <cascade name="Pozice os" desc="Změny polohy os grafu">
+       <command name="Na střed" desc="Přesunout osy na střed plátna" command="mgr.scrollCenterCommand" />
+       <command name="Na stranu" desc="Přesunout osy na levý okraj plátna" command="mgr.scrollEdgeCommand" />
+       <command name="Dolů" desc="Přesunout osy na spodní okraj plátna" command="mgr.scrollBottomCommand" />
+       <command name="Do rohu" desc="Přesunout osy do levého spodního rohu plátna (první kvadrant)" command="mgr.scrollCornerCommand" />
+     </cascade>
+   </cascade>
+ </mainmenu>
+</configuration>

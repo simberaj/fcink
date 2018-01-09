@@ -1,0 +1,10 @@
+<graphdata name="init" type="misc">
+  <gridinfo>
+    <wfactor>0.5</wfactor>
+    <hfactor>0.5</hfactor>
+    <xscale>1.0</xscale>
+    <yscale>1.0</yscale>
+    <xpiquot>0</xpiquot>
+  </gridinfo>
+  <funcinfo />
+</graphdata>
